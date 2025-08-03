@@ -1,0 +1,30 @@
+object Form2: TForm2
+  Left = 61
+  Top = 89
+  Width = 838
+  Height = 612
+  AlphaBlend = True
+  Caption = 'BABY'
+  Color = clBtnFace
+  Constraints.MaxHeight = 660
+  Constraints.MaxWidth = 838
+  Constraints.MinHeight = 612
+  Constraints.MinWidth = 838
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Mistral'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Timer1: TTimer
+    Interval = 40
+    OnTimer = Timer1Timer
+    Left = 160
+    Top = 56
+  end
+end
